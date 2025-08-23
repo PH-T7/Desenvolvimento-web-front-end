@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div> Me segue!</div>
+</body>
+</html>
+
+<script>
+    function mouse_position()
+{
+    var e = window.event;
+
+    var posX = e.clientX;
+    var posY = e.clientY;
+
+    document.Form1.posx.value = posX;
+    document.Form1.posy.value = posY;
+
+    var t = setTimeout(mouse_position,100);
+
+}
+ 
+</script>
