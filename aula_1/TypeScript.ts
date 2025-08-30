@@ -1,9 +1,10 @@
+/*
 function somaJS(a, b)
 {
     return a + b;
 }
-
-function somaTS(a: number, b: number): number
+*/
+function somaTs(a: number, b: number): number
 {
     return a + b;
 }
