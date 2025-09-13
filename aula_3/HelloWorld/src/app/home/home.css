@@ -1,0 +1,15 @@
+.ativo{
+    color: green;
+    font-weight: bold;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.inativo{
+    color: red;
+    font-weight: italic;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+}

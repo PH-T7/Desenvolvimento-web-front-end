@@ -1,0 +1,32 @@
+<!-- <p [class] = "{'ativo': ativo, 'inativo': !ativo}"> -->
+<!-- >    Estado: {{ativo ? 'Ativo' : 'Inativo'}} -->
+<!--</p>    -->
+<!--<button (click)="ativo = !ativo">Trocar</button> -->
+
+<!-- <button (click)="mostrar = !mostrar">Toggle</button>
+<p *ngIf="mostrar">Texto visível!</p> -->
+
+<!--<ul>
+    @for (item of frutas; track $index){
+        <li (click)="selecionada = item">{{item}}</li>
+    }
+</ul>
+
+@if (selecionada) 
+{
+    <p>Você escolheu: {{selecionada}}</p>
+}-->
+
+<!-- <p [class] ="{'ativo': ativo, 'inativo': !ativo}">
+    Estado: {{ativo ? 'Ativo' : 'Inativo'}}
+</p>
+<button (click)="ativo = !ativo">Trocar</button> -->
+
+<input (keyup.enter)="adicionarItem($event)"
+         placeholder="Digite e pressione Enter">
+<ul>
+    @for (item of lista ; track $index) 
+    {
+        <li>{{item}}</li>
+    }
+</ul>
